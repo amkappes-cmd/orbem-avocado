@@ -670,6 +670,7 @@ p  { margin: 0; }
 @media (max-width: 880px) { .split { grid-template-columns: 1fr; } .split.reverse .split__media { order: 0; } }
 .split__media img {
   width: 100%;
+  height: auto;
   border-radius: var(--radius);
   border: 1px solid var(--ink-12);
 }
